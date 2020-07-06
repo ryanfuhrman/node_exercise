@@ -1,13 +1,13 @@
 document
-  .querySelector(".request-statement")
+  .querySelector(".request-complement")
   .addEventListener("click", function () {
-    fetch("/statement")
+    fetch("/complement")
       .then(function (res) {
         return res.json();
       })
       .then(function (data) {
         console.log(data);
-        document.querySelector(".statement").innerText = data.statement;
+        document.querySelector(".complement").innerText = data.complement;
       })
       .catch(function (err) {
         console.error(err);
