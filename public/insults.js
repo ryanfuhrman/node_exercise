@@ -7,6 +7,7 @@ document
       })
       .then(function (data) {
         console.log(data);
+        console.log("this works");
         document.querySelector(".insult").innerText = data.insult;
       })
       .catch(function (err) {
