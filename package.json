@@ -21,6 +21,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "nodemon": "^2.0.4",
+    "parcel": "^1.12.4",
     "parcel-bundler": "^1.12.4",
     "popmotion": "^8.7.3"
   }
